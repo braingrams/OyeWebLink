@@ -9,14 +9,15 @@ type LayoutProps = {
 };
 
 const Layout = ({ children }: LayoutProps) => {
+  const name = "Wallet Fix";
   return (
-    <Box margin="0 auto" maxWidth={800} transition="0.5s ease-out">
-      <Box margin="8">
-        <Header />
+    <Box margin="0 0" transition="0.5s ease-out">
+      <Box>
+        <Header name={name} />
         <Box as="main" marginY={22}>
           {children}
         </Box>
-        <Footer />
+        <Footer name={name} />
       </Box>
     </Box>
   );

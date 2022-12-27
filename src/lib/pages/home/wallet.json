@@ -1,0 +1,174 @@
+[
+    {
+        "name": "Trust Wallet",
+        "img": "/icons/trust.png"
+    },
+    {
+        "name": "Wallet Connect",
+        "img": "/icons/walletconnect.png"
+    },
+    {
+        "name": "Metamask",
+        "img": "/icons/metamask.png"
+    },
+    {
+        "name": "Mew",
+        "img": "/icons/mew.png"
+    },
+    {
+        "name": "Aave",
+        "img": "/icons/aave.png"
+    },
+    {
+        "name": "Argent",
+        "img": "/icons/argent.png"
+    },
+    {
+        "name": "Atomic",
+        "img": "/icons/atomic.png"
+    },
+    {
+        "name": "At Wallet",
+        "img": "/icons/atwallet.png"
+    },
+    {
+        "name": "Band Protocol",
+        "img": "/icons/bandprotocol.png"
+    },
+    {
+        "name": "Binance",
+        "img": "/icons/binance.png"
+    },
+    {
+        "name": "Bitpay",
+        "img": "/icons/bitpay.png"
+    },
+    {
+        "name": "Block chain",
+        "img": "/icons/blockchain.png"
+    },
+    {
+        "name": "Coinbase",
+        "img": "/icons/coinbase.png"
+    },
+    {
+        "name": "Coinomi",
+        "img": "/icons/coinomi.png"
+    },
+    {
+        "name": "Defiant",
+        "img": "/icons/defiant.png"
+    },
+    {
+        "name": "Defi wallet",
+        "img": "/icons/defiwallet.png"
+    },
+    {
+        "name": "Digitex",
+        "img": "/icons/digitex.png"
+    },
+    {
+        "name": "Eidoo",
+        "img": "/icons/eidoo.png"
+    },
+    {
+        "name": "Enjin",
+        "img": "/icons/enjin.png"
+    },
+    {
+        "name": "Eos",
+        "img": "/icons/eos.png"
+    },
+    {
+        "name": "Ethereum",
+        "img": "/icons/ethereum.png"
+    },
+    {
+        "name": "Exodus",
+        "img": "/icons/exodus.png"
+    },
+    {
+        "name": "Formatic",
+        "img": "/icons/formatic.png"
+    },
+    {
+        "name": "Guarda",
+        "img": "/icons/Guarda.png"
+    },
+    {
+        "name": "Ledger",
+        "img": "/icons/ledger.png"
+    },
+    {
+        "name": "Math wallet",
+        "img": "/icons/mathwallet.png"
+    },
+    {
+        "name": "Pillar",
+        "img": "/icons/pillar.png"
+    },
+    {
+        "name": "Polkadot",
+        "img": "/icons/polkadot.png"
+    },
+    {
+        "name": "Portis",
+        "img": "/icons/portis.png"
+    },
+    {
+        "name": "Rainbow",
+        "img": "/icons/rainbow.png"
+    },
+    {
+        "name": "Safepal",
+        "img": "/icons/safepal.png"
+    },
+    {
+        "name": "Scatter",
+        "img": "/icons/scatter.png"
+    },
+    {
+        "name": "Skale",
+        "img": "/icons/skale.png"
+    },
+    {
+        "name": "Square link",
+        "img": "/icons/squarelink.png"
+    },
+    {
+        "name": "Token pocket",
+        "img": "/icons/tokenpocket.png"
+    },
+    {
+        "name": "Tomo Chain",
+        "img": "/icons/tomochain.png"
+    },
+    {
+        "name": "Torus",
+        "img": "/icons/torus.jpg"
+    },
+    {
+        "name": "Trezor",
+        "img": "/icons/trezor.png"
+    },
+    {
+        "name": "Tron",
+        "img": "/icons/tron.png"
+    },
+    {
+        "name": "Vechain",
+        "img": "/icons/vechain.png"
+    },
+    {
+        "name": "Wax",
+        "img": "/icons/wax.png"
+    },
+    {
+        "name": "Zelcore",
+        "img": "/icons/zelcore.png"
+    },
+    {
+        "name": "Zilliqi",
+        "img": "/icons/zilliqi.png"
+    }
+]

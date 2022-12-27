@@ -7,8 +7,12 @@ import defaultSEOConfig from "../../next-seo.config";
 import { Chakra } from "lib/components/Chakra";
 import Layout from "lib/layout";
 import "lib/styles/globals.css";
+//@ts_ignore
+import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
+  const propertyId = "63aa6bc7c2f1ac1e202a3ff1";
+  const widgetId = "1gl8ra1k2";
   return (
     <Chakra>
       <Head>
@@ -21,6 +25,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <TawkMessengerReact propertyId={propertyId} widgetId={widgetId} />
     </Chakra>
   );
 };
