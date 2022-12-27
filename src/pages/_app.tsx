@@ -7,7 +7,7 @@ import defaultSEOConfig from "../../next-seo.config";
 import { Chakra } from "lib/components/Chakra";
 import Layout from "lib/layout";
 import "lib/styles/globals.css";
-//@ts_ignore
+//  @ts_ignore
 import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {

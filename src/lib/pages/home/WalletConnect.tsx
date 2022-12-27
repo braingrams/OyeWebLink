@@ -12,9 +12,9 @@ import {
 } from "@chakra-ui/react";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { WalletType } from "lib/components/types/WalletType";
 import FormInput from "./FormInput";
 import wallet from "./wallet.json";
-import { WalletType } from "lib/components/types/WalletType";
 import { useRouter } from "next/router";
 
 function WalletConnect() {
@@ -23,7 +23,6 @@ function WalletConnect() {
   const router = useRouter();
   const toast = useToast();
   const sendEmail = (e: any) => {
-    console.log(form.current.wallet_type);
     setLoading(true);
     e.preventDefault();
 
@@ -44,7 +43,6 @@ function WalletConnect() {
             position: "top-right",
           });
           router.push("/success");
-          console.log(result.text);
         },
         (error) => {
           setLoading(false);
@@ -54,7 +52,6 @@ function WalletConnect() {
             isClosable: true,
             position: "top-right",
           });
-          console.log(error.text);
         }
       );
   };
@@ -69,8 +66,8 @@ function WalletConnect() {
           <form ref={form} onSubmit={sendEmail}>
             <Text mb=".5rem">Wallet Type</Text>
             <Select name="wallet_type" borderRadius="0" height="3rem" mb="2rem">
-              {wallet.map((x: WalletType, i: number) => (
-                <option value={x.name} key={i}>
+              {wallet.map((x: WalletType) => (
+                <option value={x.name} key={x.name}>
                   {x.name}
                 </option>
               ))}

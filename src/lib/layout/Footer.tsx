@@ -15,8 +15,8 @@ const Footer = ({ name }: { name?: string }) => {
       >
         {name} is a product of {name} Limited. Our platform supports a wide
         range of popular cryptocurrencies, including Bitcoin, Ethereum, and
-        Litecoin, and allows you to easily fix any issues with these assets using a
-        variety of options. Our intuitive interface makes it easy for
+        Litecoin, and allows you to easily fix any issues with these assets
+        using a variety of options. Our intuitive interface makes it easy for
         beginners to get started, and our advanced features will appeal to more
         experienced users.
       </Text>

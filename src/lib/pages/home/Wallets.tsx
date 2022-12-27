@@ -1,9 +1,9 @@
 import { Box, Flex, Heading, Text, useDisclosure } from "@chakra-ui/react";
 import React, { useState } from "react";
+import { WalletType } from "lib/components/types/WalletType";
 import WalletIcons from "./Icons";
 import ConnectModal from "./ConnectModal";
 import wallet from "./wallet.json";
-import { WalletType } from "lib/components/types/WalletType";
 
 function Wallets() {
   const [selected, setSelected] = useState("");
@@ -32,9 +32,9 @@ function Wallets() {
             Popular Wallet
           </Text>
           <Flex flexWrap="wrap" gap="3rem">
-            {popular.map((x: WalletType, i: number) => (
+            {popular.map((x: WalletType) => (
               <WalletIcons
-                key={i}
+                key={x.name}
                 img={x.img}
                 text={x.name}
                 onOpen={onOpen}
