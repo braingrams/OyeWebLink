@@ -5,7 +5,7 @@ function Barcode() {
   return (
     <Flex w="full" bgColor="white">
       <Box w="80%" mx="auto" pt="3rem">
-        <Box w="40%" h="auto" mx="auto">
+        <Box w={["full", "40%"]} h="auto" mx="auto">
           <Image src="/barcode.png" w="full" h="auto" />
         </Box>
         <Text

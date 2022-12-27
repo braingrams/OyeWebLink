@@ -57,8 +57,13 @@ function WalletConnect() {
   };
   return (
     <Box w="80%" mx="auto">
-      <Flex align="center" h="90vh" gap="3rem">
-        <Box w="full">
+      <Flex
+        align="center"
+        h={["auto", "90vh"]}
+        gap="3rem"
+        flexDir={["column", "row"]}
+      >
+        <Box w="full" display={["none", "block"]}>
           <Image src="/cone.png" w="full" h="auto" />
         </Box>
         <Box w="full">

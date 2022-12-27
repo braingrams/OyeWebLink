@@ -20,11 +20,15 @@ const Footer = ({ name }: { name?: string }) => {
         beginners to get started, and our advanced features will appeal to more
         experienced users.
       </Text>
-      <Flex justify="space-between" w="full">
+      <Flex
+        justify={["center", "space-between"]}
+        w="full"
+        flexDir={["column", "row"]}
+      >
         <Text fontSize="14" textAlign="center">
           © {date} {name} Limited. All rights reserved.
         </Text>
-        <HStack spacing={[2, 3]}>
+        <HStack gap={[2, 3]} justify={["center", "unset"]}>
           <Circle as="a" href="" size="32px">
             <RiInstagramFill />
           </Circle>

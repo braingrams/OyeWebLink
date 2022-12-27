@@ -21,10 +21,11 @@ function Hero() {
     >
       <Flex
         alignItems="center"
-        justifyContent="space-between"
+        justifyContent={["center", "space-between"]}
         w="80%"
         h="full"
         mx="auto"
+        flexDir={["column", "row"]}
       >
         <VStack w="full" alignItems="flex-start" spacing="1.5rem" color="white">
           <Heading>A Smart way to fix all wallets</Heading>
@@ -37,7 +38,7 @@ function Hero() {
             <Link passHref href="/all-wallets" style={{ width: "100%" }}>
               <Button
                 bgColor="white"
-                w="40%"
+                w={["100%", "40%"]}
                 color="black"
                 borderRadius="0"
                 h="3rem"

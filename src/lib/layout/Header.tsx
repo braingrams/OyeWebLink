@@ -12,6 +12,7 @@ const Header = ({ name }: { name?: string }) => {
       my="2rem"
       align="center"
       justify="space-between"
+      flexDir={["column", "row"]}
     >
       <Box>
         <Link passHref href="/">
