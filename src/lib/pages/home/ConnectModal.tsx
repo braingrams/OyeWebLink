@@ -13,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { ProgressBar } from "react-loader-spinner";
 
 function ConnectModal({
@@ -26,11 +26,19 @@ function ConnectModal({
   selected: any;
 }) {
   const [showError, setShowError] = useState(false);
-  setTimeout(() => {
-    setShowError(true);
-  }, 6000);
   const select = selected?.replace("/icons/", "").replace(".png", "");
   const router = useRouter();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowError(true);
+    }, 6000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
   return (
     <Modal isOpen={isOpen} onClose={onClose} isCentered>
       <ModalOverlay bg="blackAlpha.300" backdropFilter="blur(10px) " />
