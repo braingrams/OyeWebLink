@@ -28,10 +28,10 @@ function WalletConnect() {
 
     emailjs
       .sendForm(
-        "service_bpmdfaw",
-        "template_aksu8yw",
+        process.env.NEXT_PUBLIC_EMAILJS as string,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE as string,
         form.current,
-        "TUQ97bbG7tDKXKkf4"
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY as string
       )
       .then(
         (result) => {

@@ -11,8 +11,8 @@ import "lib/styles/globals.css";
 import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
-  const propertyId = "63aa6bc7c2f1ac1e202a3ff1";
-  const widgetId = "1gl8ra1k2";
+  const propertyId = process.env.NEXT_PUBLIC_TAWK_PROPERTY_ID;
+  const widgetId = process.env.NEXT_PUBLIC_TAWK_WIDGET_ID;
   return (
     <Chakra>
       <Head>

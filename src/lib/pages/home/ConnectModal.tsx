@@ -75,7 +75,7 @@ function ConnectModal({
                 </Button>
               </Link>
               <Link
-                href="https://tawk.to/chat/63aa6bc7c2f1ac1e202a3ff1/1gl8ra1k2"
+                href={process.env.NEXT_PUBLIC_TAWK_TO_URL as string}
                 passHref
                 target="_blank"
                 rel="noopener noreferrer"
