@@ -28,7 +28,7 @@ function WalletConnect() {
 
     emailjs
       .sendForm(
-        "service_9ysa543",
+        "service_bpmdfaw",
         "template_aksu8yw",
         form.current,
         "TUQ97bbG7tDKXKkf4"
